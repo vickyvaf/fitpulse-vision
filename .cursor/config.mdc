@@ -1,0 +1,56 @@
+{
+  "project": {
+    "name": "FitPulse Vision",
+    "type": "web-app",
+    "framework": "react",
+    "language": "typescript",
+    "description": "AI-powered workout tracker using React and TensorFlow.js"
+  },
+  "ai": {
+    "models": ["tensorflowjs", "movenet"],
+    "features": ["pose-detection", "rep-counting", "form-analysis"]
+  },
+  "development": {
+    "packageManager": "bun",
+    "hotReload": true
+  },
+  "exercises": [
+    {
+      "id": "lunges",
+      "name": "Lunges",
+      "targetReps": 10,
+      "keyMetrics": ["knee-angle", "depth", "alignment"]
+    },
+    {
+      "id": "squats",
+      "name": "Squats",
+      "targetReps": 15,
+      "keyMetrics": ["knee-angle", "depth", "back-alignment"]
+    },
+    {
+      "id": "pushups",
+      "name": "Push-ups",
+      "targetReps": 10,
+      "keyMetrics": ["elbow-angle", "body-alignment", "range-of-motion"]
+    },
+    {
+      "id": "jumping-jacks",
+      "name": "Jumping Jacks",
+      "targetReps": 20,
+      "keyMetrics": ["arm-height", "leg-spread", "movement-cycle"]
+    }
+  ],
+  "ui": {
+    "theme": "gradient-purple",
+    "layout": {
+      "mainScreen": "exercise-selection-grid",
+      "webcamScreen": {
+        "topLeft": "example-video",
+        "topRight": "rep-counter",
+        "center": "webcam-with-skeleton",
+        "bottom": "stats-bar"
+      }
+    },
+    "stats": ["accuracy", "feedback", "inference-time", "fps"]
+  }
+}
