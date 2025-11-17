@@ -2,6 +2,10 @@
 
 AI-powered workout tracker using React and TensorFlow.js for real-time pose detection and exercise form analysis.
 
+## Preview
+<img width="1440" height="812" alt="Screenshot 2025-11-17 at 09 56 06" src="https://github.com/user-attachments/assets/5e5ea423-49c6-40d1-b82d-ba1fbe9c6aed" />
+<img width="1440" height="813" alt="Screenshot 2025-11-17 at 09 59 24" src="https://github.com/user-attachments/assets/e5242fa0-9322-40ab-8f60-93b4fbe54726" />
+
 ## Features
 
 - 🎯 **Real-time Pose Detection**: Uses TensorFlow.js MoveNet model for accurate pose tracking
